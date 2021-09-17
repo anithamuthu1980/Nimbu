@@ -26,7 +26,7 @@ pipeline {
       SHARED_DIR_CONTAINER = "C:\\Shared"
       SHARED_DIR_HOST = "C:\\Shared\\${params.BUILD_ENV}\\${name}"
       
-      //PATH = "C:\\Program Files\\Docker\\Docker\\Resources\\bin;D:\\PATRICK\\installers\\Katalon_Studio_Windows_64-5.9.1;$PATH"
+      //PATH = "C:\\Program Files\\Docker\\Docker\\Resources\\bin;D:\\PA\\installers\\Katalon_Studio_Windows_64-5.9.1;$PATH"
   }
 
   // If anything fails, the whole Pipeline stops.
